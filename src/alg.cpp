@@ -2,7 +2,7 @@
 
 int gcd(int a, int b) {
     
-    k=0;   
+    int k=0;   
     if (a>b) {
         for (int i=b; i>0; --i) {
             if ((a%i==0) && (b%i==0)) {
