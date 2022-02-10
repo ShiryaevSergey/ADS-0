@@ -1,6 +1,7 @@
 // Copyright 2021 NNTU-CS
 
-int gcd(int a, int b) {   
+int gcd(int a, int b) {
+    
     k=0;   
     if (a>b) {
         for (int i=b; i>0; --i) {
